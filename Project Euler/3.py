@@ -15,6 +15,7 @@ Stop when divisor*divisor>the number.
 
 Simply find the last (-1)
 """
+
 def prime_factors(n):
     #inspired by http://stackoverflow.com/a/412942 (almost literally the same)
     d = 2
