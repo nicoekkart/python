@@ -25,7 +25,7 @@ def yields_integer(b):
     return a==int(a)
 
 def get_a(b):
-    return (1000.*(b-500.))/(b-1000.)
+    return (1000.*(b-500.))/(b-1000.)+
 
 for i in range(1,1000):
     if yields_integer(i):
